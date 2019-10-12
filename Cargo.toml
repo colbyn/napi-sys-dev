@@ -1,0 +1,19 @@
+[package]
+name = "napi-sys-dev"
+version = "0.0.1"
+authors = ["colbyn <hello@colbyn.com>"]
+edition = "2018"
+license = "MIT"
+repository = "https://github.com/colbyn/napi-sys-dev"
+homepage = "https://github.com/colbyn/napi-sys-dev"
+description = "WIP"
+# readme = "README.md"
+
+[lib]
+crate-type = ["staticlib","cdylib"]
+
+[dependencies]
+libc = "^0.2"
+
+[build-dependencies]
+bindgen = "0.50"
