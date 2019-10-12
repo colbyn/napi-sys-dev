@@ -9,8 +9,6 @@ homepage = "https://github.com/colbyn/napi-sys-dev"
 description = "WIP"
 # readme = "README.md"
 
-[lib]
-crate-type = ["staticlib","cdylib"]
 
 [dependencies]
 libc = "^0.2"
